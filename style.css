@@ -14,7 +14,8 @@
     margin: 20px;
     color: #ffffff;
     width: 100%;
-    height: 2.5rem;
+    height: 6rem;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 
@@ -29,42 +30,33 @@
 }
 
 #Developer {
-    color: #ffffff;
     font-size: 20px;
     position: absolute;
-    top: 15px;
-    width: 500px;
 }
 
 #Home {
     position: absolute;
     left: 650px;
-    top: 10px;
-    color: #ffffff;
 }
 
 #About_me {
     position: absolute;
     left: 750px;
-    top: 10px;
 }
 
 #Projects {
     position: absolute;
     left: 850px;
-    top: 10px;
 }
 
 #Tecnologies {
     position: absolute;
     left: 980px;
-    top: 10px;
 }
 
 #Contact {
     position: absolute;
     left: 1150px;
-    top: 10px;
 }
 
 #Home:hover {
@@ -113,7 +105,9 @@
     color: #ffffff;
 }
 
-
+.develop {
+    font-size: 100px;
+}
 
 
 

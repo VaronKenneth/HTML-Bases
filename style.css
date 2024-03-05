@@ -1,0 +1,119 @@
+* {
+    font-family: "Lato", sans-serif;
+    font-weight: 25px;
+    font-style: normal;
+ }
+
+ body {
+    background-color: rgba(24, 23, 23, 1)}
+
+.contenedor {
+    position: fixed;
+    font-size: 25px;
+    display: inline;
+    margin: 20px;
+    color: #ffffff;
+    width: 100%;
+    height: 2.5rem;
+}
+
+
+.nav__ul a {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    text-decoration: none;
+}
+
+.nav__ul{
+    list-style-type: none;
+}
+
+#Developer {
+    color: #ffffff;
+    font-size: 20px;
+    position: absolute;
+    top: 15px;
+    width: 500px;
+}
+
+#Home {
+    position: absolute;
+    left: 650px;
+    top: 10px;
+    color: #ffffff;
+}
+
+#About_me {
+    position: absolute;
+    left: 750px;
+    top: 10px;
+}
+
+#Projects {
+    position: absolute;
+    left: 850px;
+    top: 10px;
+}
+
+#Tecnologies {
+    position: absolute;
+    left: 980px;
+    top: 10px;
+}
+
+#Contact {
+    position: absolute;
+    left: 1150px;
+    top: 10px;
+}
+
+#Home:hover {
+    font-size: 25px;
+    padding: 10px;
+    background: #ff0534;
+    transition: all .25s;
+    border: #ff0534;
+    border-radius: 15px;
+}
+#About_me:hover {
+    font-size: 25px;
+    padding: 10px;
+    background: #ff0534;
+    transition: all .25s;
+    border: #ff0534;
+    border-radius: 15px;
+}
+#Projects:hover {
+    font-size: 25px;
+    padding: 10px;
+    background: #ff0534;
+    transition: all .25s;
+    border: #ff0534;
+    border-radius: 15px;
+}
+#Tecnologies:hover {
+    font-size: 25px;
+    padding: 10px;
+    background: #ff0534;
+    transition: all .25s;
+    border: #ff0534;
+    border-radius: 15px;
+}
+#Contact:hover {
+    font-size: 25px;
+    padding: 10px;
+    background: #ff0534;
+    transition: all .25s;
+    border: #ff0534;
+    border-radius: 15px;
+}
+
+
+.nav__ul:link {
+    color: #ffffff;
+}
+
+
+
+
+

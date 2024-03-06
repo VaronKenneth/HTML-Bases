@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex Direction Column</title>
+  <style>
+    .contenedor {
+      display: flex;
+      flex-direction: column; /* Establecer la dirección de la columna */
+      height: 300px; /* Altura del contenedor */
+    }
+
+    .item {
+      flex: 1; /* Hace que los elementos ocupen todo el espacio disponible en la dirección principal (vertical en este caso) */
+      border: 1px solid #ccc;
+      margin: 5px;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="contenedor">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+  </div>
+
+</body>
+</html>

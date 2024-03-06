@@ -107,7 +107,7 @@
 
 .develop {
     font-size: 20px;
-    padding-top: 22rem ;
+    padding-top: 15rem ;
     margin-left: 2rem;
     padding-right: 1rem;
     width: 50%;
@@ -122,7 +122,7 @@
     margin-left: 5px;
     position: absolute;
     padding-left: 3rem;
-    margin-top: 14rem;
+    margin-top: 8rem;
 }
 
 .imagen img {
@@ -161,10 +161,10 @@
     margin-left: 4rem;
     margin-right: 4rem;
     padding: 1rem;
-    padding-top: 28rem;
+    padding-top: 21rem;
     justify-content: center;
     width: 80%;
-    height: 28rem;
+    height: 25rem;
 
 }
 
@@ -191,7 +191,7 @@
     justify-content: center;
     width: 80%;
     padding: 1rem;
-    padding-top: 10rem;
+    padding-top: 6rem;
     
 }
 

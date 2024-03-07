@@ -30,6 +30,7 @@ a {
     height: 5rem;
     background-color: rgba(0, 0, 0, 0.2);
     z-index: 2;
+    justify-content: space-between;
 }
 
 .nav__ul{
@@ -160,10 +161,10 @@ a {
     margin-left: 4rem;
     margin-right: 4rem;
     padding: 1rem;
-    padding-top: 21rem;
+    padding-top: 18rem;
     justify-content: center;
     width: 80%;
-    height: 25rem;
+    height: 20rem;
 
 }
 
@@ -320,4 +321,12 @@ a {
     padding-left: 38px;
     padding-right: 38px;
     transition: all 0.25s;
+}
+
+.footer {
+    display: flex;
+    padding: 3rem;
+    padding-bottom: 0.5rem;
+    justify-content: center;
+    gap: 4rem;
 }

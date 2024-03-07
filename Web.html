@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="description" content="Esta pagina esta enfocada apresentar un repositorio personal en el cual estaran guardados los logros, avances y demas cosas.">
         <link rel="stylesheet" href="/style.css">
-        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
@@ -14,76 +14,87 @@
         <header> 
             <section class="contenedor">
                 <nav class="nav">
+                    <h1 id="Developer"> Developer: Kenneth Varon {} </h1>
+                    <label class="labe__hamburguer" for="Burguer__menu">
+                        <svg xmlns="http://www.w3.org/2000/svg" 
+                        width="35" 
+                        height="35" 
+                        fill="currentColor" 
+                        class="list__icon" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                          </svg>
+                    </label>
+                    <input class="bur" type="checkbox" name="" id="Burguer__menu">
                     <ul class="nav__ul"> 
-                        <li id="Developer"> Developer: Kenneth Varon {} </li>
-                        <li id="Home"> <a href="#Start"> Home </a> </li>
-                        <li id="About_me"> <a href="#me"> About </a> </li>
-                        <li id="Tecnologies"> <a href="#tech"> Technologies </a></li>
+                        <li id="Home" class="link"> <a href="#Start"> Home </a> </li>
+                        <li id="About_me" class="link"> <a href="#me"> About </a> </li>
+                        <li id="Tecnologies" class="link"> <a href="#tech"> Technologies </a></li>
                     </ul>
-                 </nav>
+                </nav>
         </header>
             </section>
-            <section class="develop" id="Start">
+        </section>
+        <section class="develop" id="Start">
+            <img src="usuario.png" alt="Presentacion">
+            <div class="texto">
                 <h1 class="name"> Hi!, I'm Kenneth Varon</h1>
                 <h2 class="develop__class"> Frontend Developer </h2>
                 <p  class="present"> 
-                    I'm not certified yet, but i'm learning whit some free courses plataforms like edX and 
-                    Coursera, come whit me and see my portfolio, i will show you what i know, and if you want trust in me, 
-                    i will do my best.
+                I'm not certified yet, but i'm learning whit some free courses plataforms like edX and 
+                Coursera, come whit me and see my portfolio, i will show you what i know, and if you want trust in me, 
+                i will do my best.
                 </p>
-            </section>
-            <section class="imagen">
-                <img src="usuario.png" alt="Presentacion">
-            </section>
-            <section class="About__me" id="me">
-                <div class="About__me--div">
-                    <h2> About me </h1>
-                    <p> 
-                        Hello, I live in Bogota - Colombia. In 2023 i start to learning programming, why?, could do you ask.
-                        In that year I find out that the world spin around the tecnologie, and that's the true, new tecnologies are the future.
-                        Inspired by discover that i start to learn programming and english, and now i'm here.
-                    </p>
-                    <p>
-                        Nowadays i learn some programming languages, it was very dificult like build a way with the hands.
-                        Continue in this webpage if you want, what's next are the languages i know.
-                    </p>
+            </div>
+        </section>
+        <section class="About__me" id="me">
+           <div class="About__me--div">
+               <h2> About me </h1>
+               <p> 
+                   Hello, I live in Bogota - Colombia. In 2023 i start to learning programming, why?, could do you ask.
+                   In that year I find out that the world spin around the tecnologie, and that's the true, new tecnologies are the future.
+                   Inspired by discover that i start to learn programming and english, and now i'm here.
+               </p>
+               <p>
+                   Nowadays i learn some programming languages, it was very dificult like build a way with the hands.
+                   Continue in this webpage if you want, what's next are the languages i know.
+               </p>
 
-                </div>
-            </section>
-            <section class="tecno" id="tech">
-                <div>
-                    <div class="cont__tecno">
-                        <h1> Technologies </h1>
-                        <p> These are the technologies who i now. </p>
-                    </div>
-                    <div class="t">
-                        <div class="html"> 
-                            <img src="html.png" alt="HTML">
-                            <p> HTML </p>
-                        </div>
-                        <div class="CSS">
-                            <img src="css-3.png" alt="CSS">
-                            <p> CSS </p>
-                        </div>
-                        <div class="git">
-                            <img src="git.png" alt="GIT">
-                            <p> Git </p>
-                        </div>
-                        <a class="github" href="https://github.com/VaronKenneth">
-                            <img src="github.png" alt="GITHUB"> 
-                            <p> Github </p>
-                        </a>
-                    </div>
-                </div>
-            </section>
-            <footer>
-                <div class="footer">
-                    <p>&copy; Copyright 2024 | All rights reserved</p>
-                    <p> Kenneth Alejandro Varon C. </p>
-                    <p> Contact me: <a href="mailto:kafazevc@gmail.com"> kafazevc@gmail.com </a></p>
-                </div>
-            </footer>
-    </body>
+           </div>
+       </section>
+       <section class="tecno" id="tech">
+           <div>
+               <div class="cont__tecno">
+                   <h1> Technologies </h1>
+                   <p> These are the technologies who i now. </p>
+               </div>
+               <div class="t">
+                   <div class="html"> 
+                       <img src="html.png" alt="HTML">
+                       <p> HTML </p>
+                   </div>
+                   <div class="CSS">
+                       <img src="css-3.png" alt="CSS">
+                       <p> CSS </p>
+                   </div>
+                   <div class="git">
+                       <img src="git.png" alt="GIT">
+                       <p> Git </p>
+                   </div>
+                   <a class="github" href="https://github.com/VaronKenneth">
+                       <img src="github.png" alt="GITHUB"> 
+                       <p> Github </p>
+                   </a>
+               </div>
+           </div>
+       </section>
+       <footer>
+           <div class="footer">
+               <p>&copy; Copyright 2024 | All rights reserved</p>
+               <p> Kenneth Alejandro Varon C. </p>
+               <p> Contact me: <a href="mailto:kafazevc@gmail.com"> kafazevc@gmail.com </a></p>
+           </div>
+       </footer>
+</body>
 
 
 
@@ -92,3 +103,4 @@
 
 
 </html>
+

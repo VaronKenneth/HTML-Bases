@@ -15,6 +15,12 @@
     justify-content: center;
 }
 
+a {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    text-decoration: none;
+}
+
 .contenedor {
     position: fixed;
     font-size: 20px;
@@ -24,13 +30,6 @@
     height: 5rem;
     background-color: rgba(0, 0, 0, 0.2);
     z-index: 2;
-}
-
-
-.nav__ul a {
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
-    text-decoration: none;
 }
 
 .nav__ul{

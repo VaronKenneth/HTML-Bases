@@ -120,7 +120,6 @@ header {
     width: 80%;
     height: 40rem;
     margin: auto;
-    text-align: center;
     box-sizing: border-box;
     gap: 4rem;
 }
@@ -131,6 +130,7 @@ header {
     max-width: 85%;
     height: auto;
     box-sizing: border-box;
+    margin-left: 1.5rem;
     margin-top: 10%;
     border: 5px solid #ff0534;
     border-radius: 20rem;
@@ -151,6 +151,7 @@ header {
 .texto h2 {
     background: rgba(255, 14, 46, 0.6);
     border: rgba(255, 14, 46, 0.6);
+    text-align: center;
     border-radius: 1rem;
     width: 30%;
 }   
@@ -161,10 +162,8 @@ header {
 
 .About__me {
     width: 80%;
-    padding-top: 10rem;
+    padding-top: 15rem;
     margin: auto;
-    height: auto;
-    text-align: center;
     box-sizing: border-box;
 }
 
@@ -188,9 +187,108 @@ header {
 .tecno {
     width: 80%;
     margin: auto;
-    text-align: center;
-    height: 5rem;
+    text-align: left;
+    padding-top: 15rem;
 }
+
+.tecno h1 {
+    font-size: 2.5rem;
+    background: rgba(255, 14, 46, 0.6);
+    border: rgba(255, 14, 46, 0.6);
+    border-radius: 1rem;
+    width: 30%;
+    text-align: center;
+}
+
+
+.p1 {
+    padding-top: 0.5rem;
+    font-size: 1.2rem;
+    padding-bottom: 5rem;
+    width: 100%;
+    align-items: center;
+
+}
+
+.t { 
+    width: 80%;
+    display: grid;
+    grid-template-columns: 14rem 14rem 14rem 14rem;
+    gap: 4rem;
+    justify-content: stretch;
+    padding-bottom: 0.5rem;
+}
+
+.t p {
+    padding-top: 1rem;
+}
+
+
+.html {
+    border: 3px solid rgba(57,255,20, .0);
+    border-radius: 5px;
+    box-shadow: 4px 4px 20px 0 rgba(255, 131, 29, 0.986);
+    padding: 1rem;
+    text-align: center;
+}
+
+.html:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.CSS {
+    border: 3px solid rgba(57,255,20, .0);
+    border-radius: 5px;
+    box-shadow: 4px 4px 20px 0 rgb(71, 83, 255);
+    padding: 1rem;
+    text-align: center;
+}
+
+.CSS:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.git {
+    border: 3px solid rgba(57,255,20, .0);
+    border-radius: 5px;
+    box-shadow: 4px 4px 20px 0 #ff7504;
+    padding: 1rem;
+    text-align: center;
+}
+
+.git:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.github {
+    border: 3px solid rgba(57,255,20, .0);
+    border-radius: 5px;
+    box-shadow: 4px 4px 20px 0 rgba(17, 45, 199, 0.986);
+    padding: 1rem;
+    text-align: center;
+}
+
+.github:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+footer {
+    width: 80%;
+    display: flex;
+    font-size: 1rem;
+    margin: auto;
+    gap: 10rem;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 1.5rem;
+}
+
+
 @media screen and (max-width: 1024px) {
     .nav__ul {
         padding: 0;
@@ -204,8 +302,10 @@ header {
     .develop img {
         width: 90%;
         margin-top: 15%;
+        margin-left: 1.5rem;
         max-width: 100%;
         float: none;
+        align-items: center;
     }
 
     .texto {
@@ -235,9 +335,7 @@ header {
         }
     
 
-    .About__me {
-        padding-bottom: 10rem;
-    }
+
     .About__me h2 {
         width: 45%;
         font-size: 2rem;
@@ -248,7 +346,36 @@ header {
     .About__me p {
         font-size: 1.5rem;
     }
+
+    .tecno {
+        width: 80%;
+    }
+
+    .tecno h1 {
+        width: 45%;
+    }
+
+    .t { 
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 14rem 14rem;
+        gap: 3rem;
+        justify-content: stretch;
+        padding-bottom: 0.5rem;
+    }
+    footer {
+        width: 80%;
+        display: flex;
+        font-size: 1rem;
+        gap: 2rem;
+        margin: auto;
+        text-align: center;
+        padding-top: 4rem;
+        padding-bottom: 1.5rem;
+    }
 }
+
 
 @media screen and (max-width: 480px) {
     .develop{
@@ -286,4 +413,41 @@ header {
     .About__me p {
         font-size: 1rem;
     }
+
+    .tecno {
+        width: 80%;
+    }
+
+    .tecno h1 {
+        width: 80%;
+        font-size: 2rem;
+    }
+
+    .p1 {
+        font-size: 1rem;
+    }
+    .t { 
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 15rem ;
+        gap: 3rem;
+        justify-content: stretch;
+        padding-bottom: 0.5rem;
+    }
+
+    footer {
+        display: block;
+        width: 80%;
+        font-size: 1rem;
+        margin: auto;
+        text-align: center;
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    footer p {
+        padding-top: 0.5rem;
+    }
+
 }
